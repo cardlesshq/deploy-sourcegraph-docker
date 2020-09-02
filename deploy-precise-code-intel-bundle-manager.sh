@@ -16,6 +16,6 @@ docker run --detach \
     --memory=2g \
     -e 'SRC_FRONTEND_INTERNAL=sourcegraph-frontend-internal:3090' \
     -v ~/sourcegraph-docker/lsif-server-disk:/lsif-storage \
-    index.docker.io/sourcegraph/precise-code-intel-bundle-manager:3.18.0@sha256:2961e11626fd4b5cc42854bfcb1503ae8d2d29acf8b36841cf873815b071ba0b
+    index.docker.io/sourcegraph/precise-code-intel-bundle-manager:3.19.2@sha256:104b10b85cd508e31cc71271a7a5153d7248d2ef28a8f08756875d863492e363
 
 echo "Deployed precise-code-intel-bundle-manager service"
