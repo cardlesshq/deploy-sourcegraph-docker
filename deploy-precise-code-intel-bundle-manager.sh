@@ -8,6 +8,8 @@ source ./replicas.sh
 # Ports exposed to other Sourcegraph services: 3187/TCP
 # Ports exposed to the public internet: none
 #
+VOLUME="$HOME/sourcegraph-docker/lsif-server-disk"
+./ensure-volume.sh $VOLUME 100
 docker run --detach \
     --name=precise-code-intel-bundle-manager \
     --network=sourcegraph \
@@ -16,6 +18,6 @@ docker run --detach \
     --memory=2g \
     -e 'SRC_FRONTEND_INTERNAL=sourcegraph-frontend-internal:3090' \
     -v ~/sourcegraph-docker/lsif-server-disk:/lsif-storage \
-    index.docker.io/sourcegraph/precise-code-intel-bundle-manager:3.19.2@sha256:104b10b85cd508e31cc71271a7a5153d7248d2ef28a8f08756875d863492e363
+    index.docker.io/sourcegraph/precise-code-intel-bundle-manager:3.20.1@sha256:c38db9a960e57c937f838ff0351f422dee0cf8c113f7c09adfc599f8e02aa42a
 
 echo "Deployed precise-code-intel-bundle-manager service"
