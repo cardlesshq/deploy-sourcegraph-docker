@@ -11,10 +11,10 @@ docker network create sourcegraph &> /dev/null || true
 for i in $(seq 0 $(($NUM_GITSERVER - 1))); do ./deploy-gitserver.sh $i; done
 ./deploy-grafana.sh
 ./deploy-jaeger.sh
-./deploy-precise-code-intel-bundle-manager.sh
 ./deploy-precise-code-intel-worker.sh
 ./deploy-pgsql.sh
 ./deploy-codeintel-db.sh
+./deploy-minio.sh
 ./deploy-prometheus.sh
 ./deploy-query-runner.sh
 ./deploy-redis-cache.sh
