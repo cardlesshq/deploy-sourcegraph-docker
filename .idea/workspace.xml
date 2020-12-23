@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deaeec88-7329-44db-9a1f-eee652d52747" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/update-tags.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy-minio.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/tools.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/update-docker-tags.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.buildkite/vagrant-run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/automerge.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/smoke-test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/enforce-tags/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.buildkite/cleanup.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.buildkite/pipeline.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.buildkite/pipeline.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.buildkite/test.sh" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tool-versions" beforeDir="false" afterPath="$PROJECT_DIR$/.tool-versions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RELEASING.md" beforeDir="false" afterPath="$PROJECT_DIR$/RELEASING.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deploy-cadvisor.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-cadvisor.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deploy-codeintel-db.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-codeintel-db.sh" afterDir="false" />
@@ -19,8 +22,8 @@
       <change beforePath="$PROJECT_DIR$/deploy-gitserver.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-gitserver.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deploy-grafana.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-grafana.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deploy-jaeger.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-jaeger.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-minio.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-minio.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deploy-pgsql.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-pgsql.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy-precise-code-intel-bundle-manager.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-precise-code-intel-bundle-manager.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deploy-precise-code-intel-worker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-precise-code-intel-worker.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deploy-prometheus.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-prometheus.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deploy-query-runner.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-query-runner.sh" afterDir="false" />
@@ -32,13 +35,17 @@
       <change beforePath="$PROJECT_DIR$/deploy-syntect-server.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-syntect-server.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deploy-zoekt-indexserver.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-zoekt-indexserver.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deploy-zoekt-webserver.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-zoekt-webserver.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/update-tags.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/pgsql-only-migrate.docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/pgsql-only-migrate.docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prometheus/prometheus_targets.yml" beforeDir="false" afterPath="$PROJECT_DIR$/prometheus/prometheus_targets.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teardown.sh" beforeDir="false" afterPath="$PROJECT_DIR$/teardown.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pure-docker/volume-config.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test/pure-docker/volume-config.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renovate.json" beforeDir="false" afterPath="$PROJECT_DIR$/renovate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Vagrantfile" beforeDir="false" afterPath="$PROJECT_DIR$/test/Vagrantfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/docker-compose/smoke-test.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pure-docker/smoke-test.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pure-docker/volume-config.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test/volume-config.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/servers.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/test/servers.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/update-docker-tags.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tools/update-docker-tags.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +97,8 @@
       <workItem from="1603761692739" duration="291000" />
       <workItem from="1604289067862" duration="1242000" />
       <workItem from="1605653062395" duration="640000" />
-      <workItem from="1606151454099" duration="16000" />
+      <workItem from="1606151454099" duration="355000" />
+      <workItem from="1608692890762" duration="218000" />
     </task>
     <servers />
   </component>
