@@ -526,7 +526,7 @@ services:
   codeinsights-db:
     container_name: codeinsights-db
     image: "index.docker.io/sourcegraph/codeinsights-db:3.25.0@sha256:f985af2fef860cc48be40ded864df025b8794b02b86e66cbc6c55bfe3c418831"
-    cpus: 4
+    cpus: 2
     mem_limit: "2g"
     environment:
       - POSTGRES_PASSWORD=password
