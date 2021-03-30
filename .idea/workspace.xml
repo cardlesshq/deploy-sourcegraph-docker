@@ -3,7 +3,34 @@
   <component name="ChangeListManager">
     <list default="true" id="deaeec88-7329-44db-9a1f-eee652d52747" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-cadvisor.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-cadvisor.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-codeinsights-db.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-codeinsights-db.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-codeintel-db.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-codeintel-db.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-frontend-internal.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-frontend-internal.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-frontend.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-frontend.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-github-proxy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-github-proxy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-gitserver.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-gitserver.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-grafana.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-grafana.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-jaeger.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-jaeger.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-minio.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-minio.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-pgsql.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-pgsql.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-precise-code-intel-worker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-precise-code-intel-worker.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-prometheus.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-prometheus.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-query-runner.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-query-runner.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-redis-cache.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-redis-cache.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-redis-store.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-redis-store.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-repo-updater.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-repo-updater.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-searcher.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-searcher.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-symbols.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-symbols.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-syntect-server.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-syntect-server.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-zoekt-indexserver.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-zoekt-indexserver.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy-zoekt-webserver.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-zoekt-webserver.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/db-only-migrate.docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/db-only-migrate.docker-compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Vagrantfile" beforeDir="false" afterPath="$PROJECT_DIR$/test/Vagrantfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +86,8 @@
       <workItem from="1608692890762" duration="430000" />
       <workItem from="1611335764163" duration="387000" />
       <workItem from="1614094183014" duration="268000" />
-      <workItem from="1614094536155" duration="11000" />
+      <workItem from="1614094536155" duration="264000" />
+      <workItem from="1617121391316" duration="69000" />
     </task>
     <servers />
   </component>

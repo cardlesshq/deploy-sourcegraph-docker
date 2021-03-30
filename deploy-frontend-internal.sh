@@ -18,6 +18,11 @@ docker run --detach \
     --restart=always \
     --cpus=4 \
     --memory=8g \
+    --health-cmd="wget -q 'http://127.0.0.1:3080/healthz' -O /dev/null || exit 1" \
+    --health-interval=5s \
+    --health-timeout=10s \
+    --health-retries=3 \
+    --health-start-period=300s \
     -e DEPLOY_TYPE=pure-docker \
     -e GOMAXPROCS=4 \
     -e PGHOST=pgsql \
@@ -35,6 +40,6 @@ docker run --detach \
     -e GITHUB_BASE_URL=http://github-proxy:3180 \
     -e PROMETHEUS_URL=http://prometheus:9090 \
     -v $VOLUME:/mnt/cache \
-    index.docker.io/sourcegraph/frontend:3.25.0@sha256:86b8b0c82b320d9315ceb9d1d65bc7af88824bd2f5713b922eb11751a46c3e19
+    index.docker.io/sourcegraph/frontend:3.26.1@sha256:77e5da2ba6cc19a90a8b6e1d99b72c493fcbb03f08c50ed07de20454dbf1d456
 
 echo "Deployed sourcegraph-frontend-internal service"
