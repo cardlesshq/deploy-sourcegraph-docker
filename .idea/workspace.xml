@@ -25,12 +25,10 @@
       <change beforePath="$PROJECT_DIR$/deploy-syntect-server.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-syntect-server.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deploy-zoekt-indexserver.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-zoekt-indexserver.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deploy-zoekt-webserver.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy-zoekt-webserver.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/db-only-migrate.docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/db-only-migrate.docker-compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Vagrantfile" beforeDir="false" afterPath="$PROJECT_DIR$/test/Vagrantfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +85,8 @@
       <workItem from="1611335764163" duration="387000" />
       <workItem from="1614094183014" duration="268000" />
       <workItem from="1614094536155" duration="264000" />
-      <workItem from="1617121391316" duration="69000" />
+      <workItem from="1617121391316" duration="410000" />
+      <workItem from="1619024344999" duration="157000" />
     </task>
     <servers />
   </component>
@@ -95,9 +94,9 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="597" y="326" width="598" height="490" key="find.popup" timestamp="1604289096835">
+    <state x="597" y="326" width="598" height="490" key="find.popup" timestamp="1617121715445">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="597" y="326" width="598" height="490" key="find.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1604289096835" />
+    <state x="597" y="326" width="598" height="490" key="find.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1617121715445" />
   </component>
 </project>
