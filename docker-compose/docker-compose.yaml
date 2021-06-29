@@ -343,7 +343,7 @@ services:
   worker:
     container_name: worker
     image: 'index.docker.io/sourcegraph/worker:3.29.0@sha256:b61d6136988b6abe56ee890440c35a63fb99de6ce5e09a3cb0cbfe7a03a0ec15'
-    cpus: 4
+    cpus: 2
     mem_limit: '4g'
     environment:
       - GOMAXPROCS=1
